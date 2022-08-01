@@ -1,0 +1,29 @@
+{
+  "name": "parcel-config",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean:dist": "rm -rf dist",
+    "clean:cache": "rm -rf .parcel-cache",
+    "start": "parcel src/styles/app.scss src/scripts/app.js",
+    "build:image": "parcel build src/images/**/*.* --dist-dir=images && npm run clean:cache",
+    "build": "npm run clean:dist && parcel build src/styles/app.scss src/scripts/app.js && npm run clean:cache"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2",
+    "parcel-namer-custom": "^0.2.0",
+    "parcel-reporter-bundle-manifest": "^1.0.0",
+    "sharp": "^0.29.3"
+  },
+  "parcel-namer-custom": {
+    "app.js": "[folder]/[name]-[hash].[ext]",
+    "app.scss": "[folder]/[name]-[hash].css",
+    ".jpeg$": "[name].[ext]",
+    ".jpg$": "[name].[ext]",
+    ".png$": "[name].[ext]",
+    ".svg$": "[name].[ext]"
+  }
+}
