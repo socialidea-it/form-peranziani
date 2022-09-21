@@ -73,7 +73,6 @@ Opzioni colore e dimensioni
 Radio
 classe generica che definisce spaziature
 */
-*/
 .choice
 
 /**
