@@ -32,6 +32,7 @@ html body {
         border-radius: 10px;
         padding-left: 35px;
         cursor: pointer;
+        box-sizing: border-box;
         }
 
     .input:hover {
@@ -119,6 +120,7 @@ html body {
         text-align:center;
         transition: all .4s ease-in-out;
         font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
     }
 
     .btn:hover {
