@@ -7,7 +7,7 @@
     "clean:dist": "rm -rf dist",
     "clean:cache": "rm -rf .parcel-cache",
     "browser-sync": "browser-sync start --open --files 'dist/styles/app.css'",
-    "parcel:watch": "parcel --no-cache",
+    "parcel:watch": "parcel --no-cache --open",
     "start": "npm-run-all --parallel clean:dist clean:cache browser-sync parcel:watch",
     "build:image": "parcel build src/images/**/*.* --dist-dir=images && npm run clean:cache",
     "build": "npm run clean:dist && parcel build && npm run clean:cache"
