@@ -1,1 +1,150 @@
 @import './components/block_1';
+
+html body {
+    font-family: 'Poppins', sans-serif;
+
+    .container {
+        margin: 50px 10px;
+    }
+
+    .container-radio {
+        display: flex;
+    }
+
+    label {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .input {
+        border: none;
+        resize: none;
+        background-color: #ECF1F4;
+        margin: 10px;
+        border-radius: 10px;
+        padding-left: 30px;
+        cursor: pointer;
+        }
+
+    .input:hover {
+        background-color: #cde3f0;
+        transition: all .4s ease-in-out;
+    }
+
+    ::placeholder {
+        color: #449EB1;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .input.background-icon-person {
+        background-image: url(../images/icon-person.svg);
+        background-repeat: no-repeat;
+        background-position: 2% center;
+    }
+
+    .input.background-icon-email {
+        background-image: url(../images/icon-email.svg);
+        background-repeat: no-repeat;
+        background-position: 2% center;
+    }
+
+    .input.background-icon-phone {
+        background-image: url(../images/icon-phone.svg);
+        background-repeat: no-repeat;
+        background-position: 2% center;
+    }
+
+    .input.background-icon-pencil {
+        background-image: url(../images/icon-pencil.svg);
+        background-repeat: no-repeat;
+        background-position: 1% 15%;
+    }
+
+    //input small (form type 1)
+    .input.input-small {
+       width: 270px;
+       height: 40px;
+    }
+
+    //input large (form type 2)
+    .input.input-large {
+        width: 350px;
+        height: 50px;
+    }
+
+    input.input-checkbox[type=checkbox]    {
+        transform: scale(1.5);
+        cursor: pointer;
+        accent-color: #449EB1;
+    }
+
+    input[type=radio] {
+        height:20px;
+        width:20px; 
+        cursor: pointer;
+        accent-color: #449EB1;
+    }
+
+    .choice {
+        margin-right: 10px;
+    }
+
+    //textarea small (form type 1)
+    .input-textarea-small {
+       width: 270px;
+       height: 100px;
+       padding: 20px 0 0 30px;
+    }
+
+    //textarea large (form type 2)
+    .input-textarea-large {
+        width: 1150px;
+        height: 100px;
+        padding: 20px 0 0 40px;
+     }
+
+    button.btn {
+        background-color: #449EB1;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        text-align:center;
+        transition: all .4s ease-in-out;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .btn:hover {
+        background-color: #317886;
+        transition: all .4s ease-in-out;
+    }
+
+    //button full-width (form type 1)
+    button.btn.btn-full {
+        width: 300px;
+        height: 60px;
+        font-size: 15px;
+    }
+
+     //button small (form type 2)
+     button.btn.btn-small {
+        width: 200px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    //select
+    select.select-box {
+        width: 350px;
+        height: 50px;
+      }
+
+      .select-box:after {
+        position: absolute;
+        border: none;
+        top: 14px;
+        right: 10px;
+        width: 0;
+        height: 0;
+      }
+
+}
