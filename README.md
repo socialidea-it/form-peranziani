@@ -44,3 +44,48 @@ Opzioni dimensione Buttons
 .btn-small
 .btn-full 
 ```
+
+**Checkbox**
+```css
+/**
+Checkbox
+classe generica che definisce forma e spaziature
+*/
+*/
+.input
+
+/**
+Opzioni colore e dimensioni
+*/ 
+.input-checkbox
+```
+
+**Radio**
+```css
+/**
+Radio
+classe generica che definisce spaziature
+*/
+*/
+.choice
+
+/**
+Opzioni colore e dimensioni
+*/ 
+.input-radio
+```
+
+**Select**
+```css
+/**
+Checkbox
+classe generica che definisce colore, forma e spaziature
+*/
+*/
+.input
+
+/**
+Opzioni colori e dimensioni
+*/ 
+.select-box
+```
