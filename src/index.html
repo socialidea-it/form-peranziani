@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/app.scss" />
     <script type="module" src="./scripts/app.js"></script>
 </head>
+
 <body>
-   
+
     <!--form type 1-->
-    <div class="container">
-        <input type="text" class="input input-small background-icon-person" name="name" placeholder="Il tuo nome e cognome completo*">
-    </div>
+    <div class="container container-form1">
 
-    <div class="container">
-        <textarea name="message" class="input input-textarea-small background-icon-pencil" placeholder="Di cosa hai bisogno?*"></textarea>
-    </div>
+        <input type="text" class="input input-small background-icon-person" name="name"
+            placeholder="Il tuo nome e cognome completo*">
 
-    <div class="container">
+        <textarea name="message" class="input input-textarea-small background-icon-pencil"
+            placeholder="Di cosa hai bisogno?*">
+        </textarea>
+
         <label class="choice">
             <input type="checkbox" class="input-checkbox">
             Si
@@ -32,41 +34,43 @@
             <input type="checkbox" class="input-checkbox">
             No
         </label>
-    </div>
 
-    <div class="container container-radio">        
-        <div class="choice">
-            <input type="radio" class="input-radio" name="option1" checked>
-              Non autosufficiente
+        <div class="container container-inline">
+            <div class="choice">
+                <input type="radio" class="input-radio" name="option1" checked>
+                Non autosufficiente
             </div>
-        <div class="choice">
-            <input type="radio" class="input-radio" name="option2">
-            Autosufficiente
+            <div class="choice">
+                <input type="radio" class="input-radio" name="option2">
+                Autosufficiente
+            </div>
+            <div class="choice">
+                <input type="radio" class="input-radio" name="option3">
+                Parzialmente non autosufficiente
+            </div>
         </div>
-        <div class="choice">
-            <input type="radio" class="input-radio" name="option3">
-             Parzialmente non autosufficiente
-        </div>
-    </div>
 
-    <div class="container">
-        <button class="btn btn-full" type="button">
-            Invia la tua richiesta
-        </button>
+        <div class="container">
+            <button class="btn btn-full" type="button">
+                Invia la tua richiesta
+            </button>
+        </div>
     </div>
 
     <!--form type 2-->
-    <div class="container">
-        <input type="text" class="input input-large background-icon-person" name="name" placeholder="Il tuo nome e cognome completo*">
-        <input type="text" class="input input-large background-icon-email" name="email" placeholder="Il tuo indirizzo email*">
-        <input type="text" class="input input-large background-icon-phone" name="email" placeholder="Il tuo numero di telefono">
-    </div>
+    <div class="container container-form2">
+        <div class="container-inline">
+            <input type="text" class="input input-large background-icon-person" name="name"
+                placeholder="Il tuo nome e cognome completo*">
+            <input type="text" class="input input-large background-icon-email" name="email"
+                placeholder="Il tuo indirizzo email*">
+            <input type="text" class="input input-large background-icon-phone" name="email"
+                placeholder="Il tuo numero di telefono">
+        </div>
 
-    <div class="container">
-        <textarea name="message" class="input input-textarea-large background-icon-pencil" placeholder="Di cosa hai bisogno?*"></textarea>
-    </div>
+        <textarea name="message" class="input input-textarea-large background-icon-pencil"
+            placeholder="Di cosa hai bisogno?*"></textarea>
 
-    <div class="container">
         <label class="container">
             <input type="checkbox" class="input-checkbox">
             Si
@@ -75,9 +79,7 @@
             <input type="checkbox" class="input-checkbox">
             No
         </label>
-    </div>
 
-    <div class="container">
         <form action="#">
             <select name="languages" class="input select-box">
                 <option value="select">Opzione1</option>
@@ -86,13 +88,13 @@
                 <option value="java">Opzione4</option>
             </select>
         </form>
-    </div>
 
-    <div class="container">
         <button class="btn btn-small" type="button">
             Invia la tua richiesta
         </button>
+
     </div>
 
 </body>
+
 </html>

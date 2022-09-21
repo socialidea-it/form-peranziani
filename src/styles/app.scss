@@ -2,12 +2,21 @@
 
 html body {
     font-family: 'Poppins', sans-serif;
+}
 
     .container {
         margin: 50px 10px;
     }
 
-    .container-radio {
+    .container-form1 {
+        width: 600px;
+    }
+
+    .container-form2 {
+        width: 100%;
+    }
+
+    .container-inline {
         display: flex;
     }
 
@@ -21,7 +30,7 @@ html body {
         background-color: #ECF1F4;
         margin: 10px;
         border-radius: 10px;
-        padding-left: 30px;
+        padding-left: 35px;
         cursor: pointer;
         }
 
@@ -38,37 +47,37 @@ html body {
     .input.background-icon-person {
         background-image: url(../images/icon-person.svg);
         background-repeat: no-repeat;
-        background-position: 2% center;
+        background-position: 10px center;
     }
 
     .input.background-icon-email {
         background-image: url(../images/icon-email.svg);
         background-repeat: no-repeat;
-        background-position: 2% center;
+        background-position: 10px center;
     }
 
     .input.background-icon-phone {
         background-image: url(../images/icon-phone.svg);
         background-repeat: no-repeat;
-        background-position: 2% center;
+        background-position: 10px center;
     }
 
     .input.background-icon-pencil {
         background-image: url(../images/icon-pencil.svg);
         background-repeat: no-repeat;
-        background-position: 1% 15%;
+        background-position: 10px 15%;
     }
 
     //input small (form type 1)
     .input.input-small {
-       width: 270px;
        height: 40px;
+       width: 100%;
     }
 
     //input large (form type 2)
     .input.input-large {
-        width: 350px;
         height: 50px;
+        width: 100%;
     }
 
     input.input-checkbox[type=checkbox]    {
@@ -79,7 +88,6 @@ html body {
 
     input[type=radio] {
         height:20px;
-        width:20px; 
         cursor: pointer;
         accent-color: #449EB1;
     }
@@ -90,16 +98,16 @@ html body {
 
     //textarea small (form type 1)
     .input-textarea-small {
-       width: 270px;
        height: 100px;
-       padding: 20px 0 0 30px;
+       width: 100%;
+       padding: 20px 0 0 35px;
     }
 
     //textarea large (form type 2)
     .input-textarea-large {
-        width: 1150px;
         height: 100px;
-        padding: 20px 0 0 40px;
+        width: 100%;
+        padding: 20px 0 0 35px;
      }
 
     button.btn {
@@ -146,5 +154,3 @@ html body {
         width: 0;
         height: 0;
       }
-
-}
