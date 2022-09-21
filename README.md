@@ -78,7 +78,7 @@ Opzioni colore e dimensioni
 **Select**
 ```css
 /**
-Checkbox
+Select
 classe generica che definisce colore, forma e spaziature
 */
 */
