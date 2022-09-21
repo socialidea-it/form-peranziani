@@ -1,14 +1,46 @@
-Tipologie form
-- Form type 1 --> dimensione small
-- Form type 2 --> dimensione large (full)
-*entrambi i form si adattano, in larghezza, alla dimensione del container.
+### Tag e classi CSS
 
-Tag e classi CSS
-- input e textarea --> .input classe generica che definisce colore sfondo, forma e spaziature,
-                       .input-small e .input-large definiscono le dimensioni per i campi input
-                       .input-textarea-small e .input-textarea-large definiscono le dimensioni per i campi textarea
-                   --> l'icona di sfondo è definita dalla classe .background-icon-nomeicona (person/pencil/email/phone)
+**Input e Textarea**
+```css
+/**
+Input e Textarea
+classe generica che definisce colore sfondo, forma e spaziature
+*/
+.input
 
+/**
+Opzioni dimensione Input Text
+*/
+.input-small 
+.input-large
+                       
+/**
+Opzioni dimensione Textarea
+*/                     
+.input-textarea-small
+.input-textarea-large 
 
-- button --> .btn classe generica per tutti i bottoni e definisce colore sfondo e forma
-             .btn-small e .btn-full definiscono le dimensioni
+/**
+Icona di sfondo è definita dalla classe .background-icon-${nomeicona}
+ed è applicabile alle input text e textarea
+*/
+.background-icon-person
+.background-icon-pencil
+.background-icon-email
+.background-iconphone
+````
+
+**Buttons**
+```css
+/**
+Bottoni
+classe generica che definisce colore sfondo, forma e spaziature
+*/
+.btn
+
+/**
+Opzioni dimensione Textarea
+*/ 
+.btn-small
+.btn-full 
+```
