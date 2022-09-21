@@ -5,8 +5,7 @@
 **Input e Textarea**
 ```css
 /**
-Input e Textarea
-classe generica che definisce colore sfondo, forma e spaziature
+Classe generica che definisce colore sfondo, forma e spaziature
 */
 .input
 
@@ -35,13 +34,12 @@ ed è applicabile alle input text e textarea
 **Buttons**
 ```css
 /**
-Bottoni
-classe generica che definisce colore sfondo, forma e spaziature
+Classe generica che definisce colore sfondo, forma e spaziature
 */
 .btn
 
 /**
-Opzioni dimensione Textarea
+Opzioni dimensione Buttons
 */ 
 .btn-small
 .btn-full 
