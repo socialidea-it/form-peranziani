@@ -29,7 +29,7 @@ ed è applicabile alle input text e textarea
 .background-icon-person
 .background-icon-pencil
 .background-icon-email
-.background-iconphone
+.background-icon-phone
 ````
 
 **Buttons**
